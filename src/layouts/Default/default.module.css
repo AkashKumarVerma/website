@@ -1,0 +1,9 @@
+.wrapper {
+  background-size: 50%;
+  background-repeat: repeat;
+  min-height: calc(100vh - var(--nav-height));
+  background-image: url(../../images/background.svg);
+  /* padding-bottom: 20rem; */
+}
+
+.inner {}

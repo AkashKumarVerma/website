@@ -1,9 +1,11 @@
 import * as React from "react"
+import { Button } from '../components/Button'
 
 // styles
 const pageStyles = {
   color: "#232129",
   padding: 96,
+  fontSize: '10px',
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 const headingStyles = {
@@ -129,7 +131,7 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
+      <title>Home Page</title> 
       <h1 style={headingStyles}>
         Congratulations
         <br />
@@ -138,6 +140,8 @@ const IndexPage = () => {
           🎉🎉🎉
         </span>
       </h1>
+
+      <Button>Hurray 🎉</Button>
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
         update in real-time.{" "}

@@ -1,0 +1,93 @@
+.wrapper {
+  max-width: var(--max-content-width);
+  padding: 6rem;
+  margin: 0 auto;
+  margin-top: 8rem;
+  margin-bottom: 6rem;
+  border-radius: 4rem;
+  background-color: rgba(236, 238, 241, 0.4);
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 6fr 4fr 2fr;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--color-gray);
+  margin-top: 8rem;
+}
+
+.logo {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: var(--color-black);
+}
+
+.infoText {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: var(--color-gray);
+  margin-top: 2.4rem;
+  margin-bottom: 4rem;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.navigation .label {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--color-black);
+}
+
+.navigation .navItems {
+  margin-top: 2.4rem;
+  padding: 0;
+}
+
+.navigation .navItems li { 
+  color: var(--color-gray);
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+}
+
+.navigation .link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--color-blue);
+  margin-top: 3.2rem;
+}
+
+.navigation .linkIconWrapper {
+  width: 3.2rem;
+  height: 3.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-blue-opaque);
+  border-radius: 50%;
+  margin-left: 1.6rem;
+}
+
+.navigation .linkIcon {
+  width: 1.6rem;
+}
+
+.legalLinks a:not(:last-child),
+.socialLinks a:not(:last-child) {
+  margin-right: 2.4rem;
+}

@@ -1,0 +1,60 @@
+.base {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.04s ease-in-out;
+}
+
+.outlined.accent {
+  border: 1px solid var(--color-blue);
+  color: var(--color-blue);
+}
+
+.outlined.accent:hover {
+  border: 1px solid var(--color-blue);
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.solid.accent {
+  border: 1px solid var(--color-blue);
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.solid.primary {
+  border: 1px solid var(--color-black);
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.solid.accent2 {
+  border: 1px solid var(--color-accent2);
+  background-color: var(--color-accent2);
+  color: var(--color-white);
+}
+
+
+
+.ghost.primary {
+  background-color: transparent;
+  color: var(--color-black);
+}
+
+
+.medium {
+  font-size: 1.2rem;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.6rem;
+}
+
+.large {
+  font-weight: 500;
+  font-size: 1.8rem;
+  padding: 1.2rem 3.2rem;
+  border-radius: 0.6rem;
+}

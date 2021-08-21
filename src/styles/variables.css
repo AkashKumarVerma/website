@@ -1,0 +1,21 @@
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-blue: #4169E1;
+  --color-pink: #FE247B;
+  --color-orange: #FF9443;
+  --color-green: #0ce7a5;
+  --color-gray: #6A6A6A;
+  --color-light-gray: #DCDCDC;
+
+  --color-blue-opaque: rgba(64, 105, 225, 0.2);
+
+  /* Design Colors */
+  --color-accent2: var(--color-green);
+
+  --base-font: 10px;
+  --font-family: -apple-system, Poppins, sans-serif, serif;
+
+  --nav-height: 8rem;
+  --max-content-width: 1382px;
+}
