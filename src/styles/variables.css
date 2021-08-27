@@ -7,8 +7,12 @@
   --color-green: #0ce7a5;
   --color-gray: #6A6A6A;
   --color-light-gray: #DCDCDC;
+  --color-lightest-gray: #F7F8F9;
 
   --color-blue-opaque: rgba(64, 105, 225, 0.2);
+  --color-pink-opaque: rgba(254, 36, 123, 0.2);
+  --color-orange-opaque: rgba(255, 148, 67, 0.2);
+  --color-green-opaque: rgba(12, 231, 165, 0.2);
 
   /* Design Colors */
   --color-accent2: var(--color-green);
