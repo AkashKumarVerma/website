@@ -238,6 +238,27 @@ const IndexPage = () => {
       <FAQ />
       {/* END - FAQ ==================================================== */}
 
+
+      {/* START - Footer Get In Touch ==================================================== */}
+      <div className={Styles.getStarted}>
+        <div className={Styles.header}>Get In Touch With<br />Our Team To Get Started</div>
+        <div className={Styles.input}>
+          <Textbox />
+          <Button
+            type="solid"
+            color="primary"
+            size="large"
+          >
+            Get In Touch With Us
+          </Button>
+        </div>
+        <StaticImage
+          className={Styles.illustration}
+          src="./../images/illustrations/concept-of-importance-of-team-work-in-business-startup.svg"
+        />
+      </div>
+      {/* START - Footer Get In Touch ==================================================== */}
+
       <Footer />
     </Layout>
   )

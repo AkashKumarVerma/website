@@ -176,3 +176,43 @@
 
 
 /* -------------------------------------------------------------------------- */
+
+.getStarted {
+  /* max-width: 110rem; */
+  padding: 0 16rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: 
+    "text image"
+    "input image";
+}
+
+.getStarted .header {
+  grid-area: text;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+  align-self: end;
+}
+
+.getStarted .input {
+  grid-area: input;
+  align-self: start;
+}
+
+.getStarted .illustration {
+  grid-area: image;
+  width: 50rem;
+  justify-self: end;
+}
+
+.getStarted .input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.getStarted input {
+  width: 40rem;
+  margin-right: 1.6rem;
+}
