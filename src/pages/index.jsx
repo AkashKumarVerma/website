@@ -32,7 +32,6 @@ const IndexPage = () => {
             size="large"
             type="solid"
             color="primary"
-            className={Styles.heroButton}
           >
             Get A Free Consultation
           </Button>

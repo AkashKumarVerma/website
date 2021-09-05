@@ -17,7 +17,7 @@ export const Pricings = () => {
           src="./../../images/illustrations/happy-businessman.svg"
         />
       </div>
-      <div className={Styles.bottom}>
+      <div>
         <div className={clx(Styles.typeWrapper, Styles.colorGreen)}>
           <div className={Styles.typeTitle}>Small Businesses</div>
           <div className={Styles.typeBody}>
@@ -31,10 +31,7 @@ export const Pricings = () => {
           <div className={Styles.link}>
             Chat With Us
             <span className={Styles.linkIconWrapper}>
-              <StaticImage
-                className={Styles.linkIcon}
-                src="./../../images/IconArrowRightGreen.svg"
-              />
+              <StaticImage src="./../../images/IconArrowRightGreen.svg" />
             </span>
           </div>
         </div>
@@ -51,10 +48,7 @@ export const Pricings = () => {
           <div className={Styles.link}>
             Chat With Us
             <span className={Styles.linkIconWrapper}>
-              <StaticImage
-                className={Styles.linkIcon}
-                src="./../../images/IconArrowRightOrange.svg"
-              />
+              <StaticImage src="./../../images/IconArrowRightOrange.svg" />
             </span>
           </div>
         </div>
@@ -71,10 +65,7 @@ export const Pricings = () => {
           <div className={Styles.link}>
             Chat With Us
             <span className={Styles.linkIconWrapper}>
-              <StaticImage
-                className={Styles.linkIcon}
-                src="./../../images/IconArrowRightPink.svg"
-              />
+              <StaticImage src="./../../images/IconArrowRightPink.svg" />
             </span>
           </div>
         </div>

@@ -22,7 +22,13 @@ export const Accordian = ({ items }) => {
               index === openTab && Styles.itemOpen
             )}
           >
-            <div onClick={toggle(index)} className={Styles.itemTitle}>
+            <div
+              role="button"
+              tabIndex={index}
+              onClick={toggle(index)}
+              onKeyDown={toggle(index)}
+              className={Styles.itemTitle}
+            >
               <div className={Styles.itemTitleText}>
                 {item.title}
               </div>

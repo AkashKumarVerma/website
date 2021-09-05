@@ -9,6 +9,7 @@ export const Solutions = (props) => {
 
   return (
     <div
+      role="tooltip"
       onMouseLeave={close}
       className={clx(
         Styles.wrapper,

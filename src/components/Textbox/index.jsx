@@ -1,9 +1,16 @@
 import * as React from 'react'
+import clx from 'classnames'
 import * as Styles from './Textbox.module.css'
 
-export const Textbox = () => {
+export const Textbox = ({ compact, placeholder }) => {
   return (
-    <input className={Styles.wrapper} placeholder="Your Email Address" />
+    <input
+      className={clx(
+        Styles.wrapper,
+        compact && Styles.compact
+      )}
+      placeholder={placeholder}
+    />
   )
 }
 

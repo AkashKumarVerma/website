@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <div className={Styles.wrapper}>
       <div className={Styles.top}>
-        <div className={Styles.info}>
+        <div>
           <div className={Styles.logo}>zeppo</div>
           <div className={Styles.infoText}>
             No development effort on your side. Simply add a tag to your<br />
@@ -23,7 +23,7 @@ export const Footer = () => {
         </div>
 
         <div className={Styles.navigation}>
-          <div className={Styles.navColumn}>
+          <div>
             <div className={Styles.label}>Services</div>
             <ul className={Styles.navItems}>
               <li>Build</li>
@@ -41,14 +41,14 @@ export const Footer = () => {
               </span>
             </div>
           </div>
-          <div className={Styles.navColumn}>
+          <div>
             <div className={Styles.label}>Resources</div>
             <ul className={Styles.navItems}>
               <li>Glossary</li>
               <li>Job Board Overview</li>
             </ul>
           </div>
-          <div className={Styles.navColumn}>
+          <div>
             <div className={Styles.label}>About zeppo</div>
             <ul className={Styles.navItems}>
               <li>About Us</li>

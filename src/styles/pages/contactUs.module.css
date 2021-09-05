@@ -1,0 +1,148 @@
+.wrapper {
+  min-height: 100vh;
+  padding-top: var(--nav-height);
+  max-width: calc(var(--max-content-width) - 10rem);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.illustration {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.wrapper section {
+  position: relative;
+  z-index: 2;
+}
+
+.formSection {
+  padding-top: var(--nav-height);
+  padding-left: var(--nav-height);
+}
+
+.formSection > h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: var(--color-black);
+  margin-bottom: 1.6rem;
+}
+
+.formSection > p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.inputsWrapper {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs:not(:last-child) {
+  margin-right: 2.4rem;
+}
+
+.inputs > span,
+.services > span {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+  display: block;
+}
+
+
+.services {
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 70rem;
+}
+
+.tag {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1.4rem 2.4rem 1.4rem 1.6rem;
+  margin-right: 0.8rem;
+  margin-bottom: 0.8rem;
+
+  font-weight: 500;
+  font-size: 1.4rem;
+  cursor: pointer;
+
+  border-radius: 0.8rem;
+  border: 1px solid var(--color-light-gray);
+  
+  background-color: var(--color-lightest-gray);
+}
+
+.tagCircle {
+  display: block;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  margin-right: 0.8rem;
+  border: 1px solid var(--color-light-gray);
+}
+
+.tagSelected {
+  background-color: var(--color-blue-opaque);
+  border: 1px solid var(--color-blue);
+  color: var(--color-blue);
+}
+.tagSelected .tagCircle { 
+  background-color: var(--color-blue);
+  border: 1px solid var(--color-blue);
+}
+
+.otherContacts {
+  padding-right: var(--nav-height);
+}
+.otherContacts h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+
+.contact {
+  display: flex;
+  min-width: 30rem;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1.6rem;
+  padding: 1.2rem 2.4rem;
+
+  font-weight: 500;
+  font-size: 1.4rem;
+  border-radius: 0.8rem;
+
+  border: 1px solid var(--color-light-gray);
+  background-color: var(--color-lightest-gray);
+}
+
+.icon {
+  width: 1.6rem;
+  margin-right: 0.8rem;
+}

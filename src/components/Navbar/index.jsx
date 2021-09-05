@@ -32,7 +32,7 @@ export const Navbar = () => {
         <div className={Styles.menu}>
           <Link onMouseEnter={selectOpen('solutions')} to="/solutions">Solutions</Link>
           <Link onMouseEnter={selectOpen('aboutus')} to="/about-us">About Us</Link>
-          <Link onMouseEnter={selectOpen('contact')} to="/contact">Contact Sales</Link>
+          <Link onMouseEnter={selectOpen('contact')} to="/contact-us">Contact Sales</Link>
         </div>
       </div>
     </nav>
