@@ -1,0 +1,130 @@
+.wrapper {
+  width: 100vw;
+  background-color: #fff;
+}
+
+.inner {
+  z-index: 2;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  padding-top: calc(var(--nav-height) + 4rem);
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+
+  opacity: 0;
+  transform: translateY(-2rem);
+  transition: all 0.14s ease-in-out 0.24s;
+}
+
+.image { 
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  filter: brightness(1.2);
+  background-size: contain;
+}
+
+.illustration {
+  position: absolute;
+  top: var(--nav-height);
+  left: 0;
+  right: 0;
+  z-index: 2;
+  max-width: 85%;
+  margin: 0 auto;
+  display: block;
+
+  opacity: 0;
+  transform: translateY(-2rem);
+  transition: all 0.14s ease-in-out 0.24s;
+}
+
+.header {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
+.lines {
+  display: flex;
+  align-items: center;
+}
+
+.lines span {
+  display: inline-block;
+  width: 8rem;
+  height: 2px;
+}
+
+.lines span:nth-child(2) {
+  height: 3px;
+  background-color: var(--color-orange);
+}
+
+.lines span:not(:nth-child(2)) {
+  background-color: var(--color-orange-opaque);
+}
+
+.body {
+  width: 100%;
+  padding: 0 12rem;
+  margin-top: 4.8rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 8rem;
+}
+
+.service .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.service .iconWrapper {
+  width: 2.4rem;
+  height: 2.4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  margin-right: 0.8rem;
+}
+
+.service .icon { width: 1.6rem; }
+.service .chevron { margin-left: 0.8rem; }
+
+.iconBlue { background-color: var(--color-blue-opaque); }
+.iconPink { background-color: var(--color-pink-opaque); }
+.iconOrange { background-color: var(--color-orange-opaque); }
+
+
+.info {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+.list {
+  margin-top: 2.4rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.list li {
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+}
+
+
+.menuOpen .inner,
+.menuOpen .illustration {
+  opacity: 1;
+  transform: translateY(0);
+}
