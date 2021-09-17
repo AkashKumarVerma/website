@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import { Navbar } from './../../components/Navbar';
+import { Footer } from './../../components/Footer';
 import * as Styles from './default.module.css';
 
 
@@ -11,6 +12,7 @@ const DefaultLayout = ({ children }) => {
       <div className={Styles.inner}>
         { children }
       </div>
+      <Footer />
     </main>
   )
 }
